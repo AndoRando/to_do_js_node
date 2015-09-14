@@ -7,3 +7,7 @@
 .detail:hover {
   text-decoration: underline;
 }
+
+#done li .detail {
+  color: #bbf;
+}
