@@ -15,11 +15,19 @@ $(function() {
 
     var task = new Task(name, description, deadline);
     $("#not-done").append("<li><span class='detail'>" + task.name + "</span>" +
-                          "  <span class='btn btn-info btn-sm complete'>Done</span>" + "</li>");
+                          "<span class='btn btn-info btn-sm complete'>Done</span>" +
+                            "<ul class='details'>" +
+                              "<li>" + task.description + "</li>" +
+                              "<li>" + task.deadline + "</li>" +
+                            "</ul></li>");
 
     $(".complete").click(function() {
       $("#done").append($(this).parent());
       $(this).hide();
+    });
+
+    $(".detail").last().click(function() {
+      $(this).next().next().toggle();
     });
   });
 
