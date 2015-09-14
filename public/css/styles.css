@@ -14,3 +14,16 @@
 #done li .detail {
   color: #bbf;
 }
+
+.jumbotron {
+  background: url(https://images.unsplash.com/photo-1427501482951-3da9b725be23?q=80&fm=jpg&s=f68edb15ce4565555ccf9b6395da4dff) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  color: #ddd;
+}
