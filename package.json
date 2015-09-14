@@ -1,0 +1,17 @@
+{
+  "name": "to_do",
+  "version": "1.0.0",
+  "description": "to do list",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "mocha": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha spec/specs.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

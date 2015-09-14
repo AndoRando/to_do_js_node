@@ -1,0 +1,16 @@
+extends ./layout.jade
+  
+block content
+  header 
+    h1 To Do
+  article  
+    form(id="new-task")
+      input(type="text", id="task-description")
+      button(type="submit")
+      
+  #not-done-div  
+    h3 Not Done
+    ul(id="not-done")
+  #done-div
+    h3 Done  
+    ul(id="done")
